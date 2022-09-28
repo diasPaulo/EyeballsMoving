@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background-color: #000;
+}
+
+.img {
+  position: relative;
+  width: 720px;
+  height: 720px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.img > img {
+  width: 100%;
+  height: 100%;
+}
+
+.eye {
+  position: absolute;
+}
+
+.eye img {
+  border-radius: 50%;
+  width: 60px;
+  height: 30px;
+}
+
+.eye1 {
+  top: 34%;
+  left: 77%;
+}
+
+.eye2 {
+  top: 34%;
+  left: 63%;
+}
+
+.eye3 {
+  top: 63%;
+  left: 43%;
+}
+
+.eye4 {
+  top: 65.5%;
+  left: 28%;
+}
